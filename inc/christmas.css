@@ -1,0 +1,72 @@
+/*Adds a Christmas feeling -see customizer */
+body{
+	background: url(../images/wintersky.png) repeat-x fixed;
+}
+
+.grass {
+	position: fixed;
+     /*top:80%;*/
+    bottom:0;
+    left: 0;
+    width: 100%;
+    min-width: 900px;
+    height: 184px;
+    overflow: hidden;
+    z-index: -1;
+    background: transparent url(../images/snow.png)repeat-x;
+}
+
+.kanin{
+	position: fixed;
+    top:44%;
+    left: 20px;
+    width: 436px;
+    height: 443px;
+    overflow: hidden;
+    z-index: 2; /*Display in front of grass*/
+    background: transparent url(../images/kaninchristmas1.png)no-repeat;
+}
+
+.sol{
+	position: fixed;
+    top:11%;
+    left: 10%;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    z-index:-3;/*Display behind the clouds*/
+    background: transparent url(../images/rudolf.png)no-repeat;
+}
+
+.far-clouds {
+    background: transparent url(../images/cloud1.png) 500px 94px repeat-x fixed;
+	 z-index: -2;
+	 opacity: 0.7;
+}
+.near-clouds {
+    background: transparent url(../images/cloud2.png) 0px 73px repeat-x fixed;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+.egg1{
+	position: fixed;
+    top:77%;
+    right: 1%;
+	width: 158px;
+    height: 154px;
+    overflow: hidden;
+    z-index: 1; /*In front of grass*/
+    background: transparent url(../images/gift1.png)repeat-x;
+}
+
+.egg2 {
+	position: fixed;
+    top:79%;
+    left: 0.9%;
+    width: 400px;
+    height: 154px;
+    overflow: hidden;
+    z-index: 4;
+    background: transparent url(../images/gift2.png)repeat-x;
+}

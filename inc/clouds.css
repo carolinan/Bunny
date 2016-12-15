@@ -1,0 +1,64 @@
+#far-clouds{
+	position:absolute;
+	top:3%;
+	background:transparent url(../images/cloud1.png) repeat-x;
+	z-index:1;
+	width:100%;
+	height:154px;
+	margin:0;
+	padding:0;
+
+	-webkit-animation: movecloud 200s infinite; /* Chrome, Safari, Opera */
+    animation: movecloud 200s infinite;
+     animation-iteration-count: infinite;
+
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+#near-clouds{
+	position:absolute;
+	top:8%;
+	background:transparent url(../images/cloud2.png) repeat-x;
+	z-index:2;
+	width:100%;
+	height:154px;
+	margin:0;
+	padding:0;
+
+	-webkit-animation: movecloud 300s infinite; /* Chrome, Safari, Opera */
+    animation: movecloud 300s infinite;
+
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.has-menu #far-clouds{
+		top:7%;
+}
+
+.has-menu #near-clouds{
+		top:9%;
+}
+
+@keyframes movecloud {
+ from {
+    margin-left: -20%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+  }
+}
+
+
+@media (max-width:767px){
+	#near-clouds,
+	#far-clouds{
+		display:none;
+		margin:0;
+		padding:0;
+	}
+}
