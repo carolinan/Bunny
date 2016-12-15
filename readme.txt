@@ -32,11 +32,12 @@ Set a small number for a high arc, and high number for a low arc.
 
 == Changelog ==
 
-= 1.7 2016-12-14 =
-Fixed a problem where the bat would show instead of "Rudolf" for the christmas setting.
-Updated the Checkbox sanitization callback.
+= 1.7 2016-12-15 =
+Fixed a problem where the bat would show instead of "Rudolf" in the christmas setting.
+Updated the checkbox sanitization callback in the customizer and added support for selective refresh.
 Updated the responsive widths in the css.
-
+Moved the remaining javascript into their own .js files and enqueued them.
+Removed an unused image.
 
 
 
