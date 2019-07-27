@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-	
 	/* Thanks to: Keyboard Accessible Dropdown Menus
 	Copyright 2013 Amy Hendrix (email : amy@amyhendrix.net), Graham Armfield (email : graham.armfield@coolfields.co.uk)
 	License:      MIT
@@ -14,13 +13,11 @@ jQuery(document).ready(function($) {
 		function(){$(this).parents().toggleClass("keyboard-dropdown");}
 	);
 	
-	
 	$("#mobile-menu").click(function(){
 		$(".nav-menu").toggle();
 	});
 
 });
-
 
 /*Skip links http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/ */
 window.addEventListener("hashchange", function(event) {
@@ -32,4 +29,3 @@ window.addEventListener("hashchange", function(event) {
         element.focus();
     }
 }, false); 
-	

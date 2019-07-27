@@ -19,7 +19,7 @@ body{
 .kanin{
 	position: fixed;
     top:44%;
-    left: 20px;
+    left: 0;
     width: 436px;
     height: 443px;
     overflow: hidden;
@@ -69,4 +69,25 @@ body{
     overflow: hidden;
     z-index: 4;
     background: transparent url(../images/gift2.png)repeat-x;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    body{
+        background:#5a7b92;
+    }
+
+    #kaninf{
+        top:35%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    body{
+        background:#5a7b92;
+    }
 }

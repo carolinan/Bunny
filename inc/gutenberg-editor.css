@@ -1,0 +1,10 @@
+.edit-post-visual-editor,
+.edit-post-visual-editor .editor-block-list__block-edit,
+.edit-post-visual-editor .editor-block-list__block {
+	font-family: Verdana,Georgia,Serif;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: 'Oswald', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #226bff;
+}

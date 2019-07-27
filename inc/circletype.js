@@ -16,7 +16,7 @@
 		, inject = '';
 		if (a.length) {
 			$(a).each(function(i, item) {
-				inject += '<span class="'+klass+(i+1)+'" aria-hidden="true">'+item+'</span>'+after;
+				inject += '<span class="'+klass+(i+1)+'" aria-hidden="true"><a href="'+bunny_link.homelink+'/">'+item+'</a></span>'+after;
 			});
 			t.attr('aria-label',text)
 			.empty()

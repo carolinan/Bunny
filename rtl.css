@@ -1,0 +1,30 @@
+/*
+Theme Name: Bunny
+https://codex.wordpress.org/Right-to-Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.pinned {
+	float: left;
+	margin-top: 8px;
+	color: #ccc;
+	padding: 0px 19px;
+	background: #fefefe;
+	border-radius: 32px;
+	border: 2px dashed #ccc;
+	line-height: 55px;
+	text-align: center;
+}
+
+.widgettitle,
+.widget {
+	text-align: right;
+}
+
+.comment-header {
+	padding: 1em 2em 0 0;
+}

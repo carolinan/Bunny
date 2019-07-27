@@ -4,13 +4,13 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package bunny
+ * @package Bunny
  */
 
 ?>
 
-<div id="sidebar" role="complementary">
+<aside id="sidebar" role="complementary">
 	<ul class="sidebar-inner">
 		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</ul>
-</div>
+</aside>

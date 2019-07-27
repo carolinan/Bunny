@@ -54,11 +54,24 @@
 }
 
 
-@media (max-width:767px){
-	#near-clouds,
-	#far-clouds{
-		display:none;
-		margin:0;
-		padding:0;
+/* Stop the animations on Ipad Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  	#near-clouds,
+  	#far-clouds{
+	   -webkit-animation: none;
+       animation: none;
+	}
+
+}
+
+@media (max-width:768px){
+  	#near-clouds,
+  	#far-clouds{
+	   -webkit-animation: none;
+       animation: none;
 	}
 }

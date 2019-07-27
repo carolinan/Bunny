@@ -59,3 +59,24 @@ body{
     z-index: 4;
     background: transparent url(../images/pumpkin2.png)no-repeat;
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    body{
+        background:#3f484a;
+    }
+
+    #kaninf{
+        top:35%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    body{
+        background:#3f484a;
+    }
+}
