@@ -5,59 +5,58 @@ body{
 
 .grass {
 	position: fixed;
-     /*top:80%;*/
-    bottom:0;
-    left: 0;
-    width: 100%;
-    min-width: 900px;
-    height: 184px;
-    overflow: hidden;
-    z-index: -1;
-    background: transparent url(../images/grass-fall.png)repeat-x;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	min-width: 900px;
+	height: 184px;
+	overflow: hidden;
+	z-index: -1;
+	background: transparent url(../images/grass-fall.png)repeat-x;
 }
 
 .sol{
 	position: fixed;
-    top:11%;
-    left: 10%;
-    width: 160px;
-    height: 160px;
-    overflow: hidden;
-    z-index:-3;/*Display behind the clouds*/
-    background: transparent url(../images/bat.png)no-repeat;
+	top:11%;
+	left: 10%;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	z-index:-3;/*Display behind the clouds*/
+	background: transparent url(../images/bat.png)no-repeat;
 }
 
 .far-clouds {
-    background: transparent url(../images/cloud1.png) 500px 94px repeat-x fixed;
+	background: transparent url(../images/cloud1.png) 500px 94px repeat-x fixed;
 	 z-index: -2;
 	 opacity: 0.7;
 }
 .near-clouds {
-    background: transparent url(../images/cloud2.png)0px 63px repeat-x fixed;
+	background: transparent url(../images/cloud2.png)0px 63px repeat-x fixed;
 	z-index: -1;
 	opacity: 0.7;
 }
 
 .egg1{
 	position: fixed;
-    top:85%;
-    right: 4%;
+	top:85%;
+	right: 4%;
 	width: 160px;
-    height: 80px;
-    overflow: hidden;
-    z-index: 1; /*In front of grass*/
-    background: transparent url(../images/pumpkin1.png)no-repeat;
+	height: 80px;
+	overflow: hidden;
+	z-index: 1; /*In front of grass*/
+	background: transparent url(../images/pumpkin1.png)no-repeat;
 }
 
 .egg2 {
 	position: fixed;
-    top:79%;
-    left: 0.9%;
-    width: 400px;
-    height: 154px;
-    overflow: hidden;
-    z-index: 4;
-    background: transparent url(../images/pumpkin2.png)no-repeat;
+	top:79%;
+	left: 0.9%;
+	width: 400px;
+	height: 154px;
+	overflow: hidden;
+	z-index: 4;
+	background: transparent url(../images/pumpkin2.png)no-repeat;
 }
 
 @media only screen 
@@ -65,18 +64,18 @@ body{
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    body{
-        background:#3f484a;
-    }
+	body{
+		background:#3f484a;
+	}
 
-    #kaninf{
-        top:35%;
-    }
+	#kaninf{
+		top:35%;
+	}
 
 }
 
 @media screen and (max-width:768px) {
-    body{
-        background:#3f484a;
-    }
+	body{
+		background:#3f484a;
+	}
 }

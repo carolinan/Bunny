@@ -171,7 +171,6 @@ function bunny_block_styles() {
 }
 add_action( 'enqueue_block_assets', 'bunny_block_styles' );
 
-
 /**
  * Custom CSS
  */

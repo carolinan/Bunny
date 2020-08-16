@@ -17,7 +17,7 @@ function bunny_customizer( $wp_customize ) {
 	$wp_customize->add_panel(
 		'bunny_options_panel',
 		array(
-			'title' => __( 'Theme Options', 'bunny' ),
+			'title'    => __( 'Theme Options', 'bunny' ),
 			'priority' => 210,
 		)
 	);
@@ -25,9 +25,9 @@ function bunny_customizer( $wp_customize ) {
 	$wp_customize->add_section(
 		'bunny_section_one',
 		array(
-			'title' => __( 'Arc Settings', 'bunny' ),
+			'title'    => __( 'Arc Settings', 'bunny' ),
 			'priority' => 10,
-			'panel' => 'bunny_options_panel',
+			'panel'    => 'bunny_options_panel',
 		)
 	);
 
@@ -36,7 +36,7 @@ function bunny_customizer( $wp_customize ) {
 		array(
 			'title'    => __( 'Meta Settings', 'bunny' ),
 			'priority' => 210,
-			'panel'   => 'bunny_options_panel',
+			'panel'    => 'bunny_options_panel',
 		)
 	);
 
@@ -99,8 +99,8 @@ function bunny_customizer( $wp_customize ) {
 	$wp_customize->add_control(
 		'bunny_disable_arc',
 		array(
-			'type' => 'checkbox',
-			'label' => __( 'Check this box to disable the arc.', 'bunny' ),
+			'type'    => 'checkbox',
+			'label'   => __( 'Check this box to disable the arc.', 'bunny' ),
 			'section' => 'bunny_section_one',
 		)
 	);
@@ -129,7 +129,7 @@ function bunny_customizer( $wp_customize ) {
 	$wp_customize->add_control(
 		'bunny_christmas',
 		array(
-			'type' 	  => 'checkbox',
+			'type'    => 'checkbox',
 			'label'   => __( 'Check this box to add that Christmas feeling!', 'bunny' ),
 			'section' => 'bunny_section_three',
 		)
@@ -158,7 +158,8 @@ function bunny_customizer( $wp_customize ) {
 		)
 	);
 
-	$wp_customize->add_control('bunny_hide',
+	$wp_customize->add_control(
+		'bunny_hide',
 		array(
 			'type'    => 'checkbox',
 			'label'   => __( 'Check this box to hide all decorative images.', 'bunny' ),
@@ -295,13 +296,13 @@ function bunny_sanitize_image( $image, $setting ) {
 	 *
 	 * The array includes image mime types that are included in wp_get_mime_types()
 	 */
-    $mimes = array(
-        'jpg|jpeg|jpe' => 'image/jpeg',
-        'gif'          => 'image/gif',
-        'png'          => 'image/png',
-    );
+	$mimes = array(
+		'jpg|jpeg|jpe' => 'image/jpeg',
+		'gif'          => 'image/gif',
+		'png'          => 'image/png',
+	);
 	// Return an array with file extension and mime_type.
-    $file = wp_check_filetype( $image, $mimes );
+	$file = wp_check_filetype( $image, $mimes );
 	// If $image has a valid mime_type, return it; otherwise, return the default.
-    return ( $file['ext'] ? $image : $setting->default );
+	return ( $file['ext'] ? $image : $setting->default );
 }

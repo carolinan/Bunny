@@ -1,10 +1,9 @@
 === Bunny ===
 Contributors: poena
-Requires at least: WordPress 5.0
-Tested up to: WordPress 5.2
-Version: 1.9
+Version: 2.2
+Requires at least: 5.0
+Tested up to: 5.5
 Requires PHP: 5.6
-Tags: threaded-comments, custom-menu, sticky-post, translation-ready, one-column, two-columns, editor-style, featured-images, theme-options, right-sidebar, blog
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -21,17 +20,26 @@ The code is sometimes commented in both English and Swedish. -In those cases, th
 2. For help on adjusting the site title and tagline, see the FAQ.
 
 == Copyright ==
-Copyright 2014-2019 Carolina Nymark
+Copyright 2014-2020 Carolina Nymark
 
 == Frequently Asked Questions ==
 = Where can I get support for this theme? =
-If you have any questions or suggestions for this theme please use the theme support page, http://wordpress.org/support/theme/bunny.
+If you have any questions or suggestions for this theme please use the theme support page, 
+http://wordpress.org/support/theme/bunny.
 
 = My title and tagline looks funny, how do I fix this? =
-Please open the theme customizer. Under the Theme Options panel and the 'Arc Settings' section you will find the settings for the curved text.
+Please open the theme customizer.
+Under the Theme Options panel and the 'Arc Settings' section you will find the settings for the curved text.
 Set a small number for a high arc, and high number for a low arc.
 
 == Changelog ==
+
+= 2.2 2020-08-16 =
+Added required items to style.css
+
+= 2.1 2020-04-19 =
+Updated links, tested up to, and dates.
+
 
 = 2.0 2019-05-09 =
 Fixed typos...

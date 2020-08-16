@@ -2,22 +2,22 @@
 
 .egg1{
 	position: fixed;
-    top:77%;
-    right: 1%;
+	top:77%;
+	right: 1%;
 	width: 158px;
-    height: 154px;
-    overflow: hidden;
-    z-index: 1; /*In front of grass*/
-    background: transparent url(../images/egg1.png)repeat-x;
+	height: 154px;
+	overflow: hidden;
+	z-index: 1; /*In front of grass*/
+	background: transparent url(../images/egg1.png)repeat-x;
 }
 
 .egg2 {
 	position: fixed;
-    top:77%;
-    left: 0.5%;
-    width: 400px;
-    height: 154px;
-    overflow: hidden;
-    z-index: 4;
-    background: transparent url(../images/egg2.png)repeat-x;
+	top:77%;
+	left: 0.5%;
+	width: 400px;
+	height: 154px;
+	overflow: hidden;
+	z-index: 4;
+	background: transparent url(../images/egg2.png)repeat-x;
 }

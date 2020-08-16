@@ -24,7 +24,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 }
 ?>
 <a href="#main" class="skip-link screen-reader-text"><?php esc_html_e( 'Skip to content', 'bunny' ); ?></a>
-<header id="header">
+<header id="header" role="banner">
 	<?php
 	if ( has_nav_menu( 'header' ) ) {
 		wp_nav_menu(

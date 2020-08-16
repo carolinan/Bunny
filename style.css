@@ -1,15 +1,18 @@
 /*
 Theme Name: Bunny
-Theme URI: https://wptema.se/bunny/
+Theme URI:
 Author: Carolina Nymark
-Author URI: https://wptema.se/
+Author URI: https://themesbycarolina.com
 Description: Fluffy friendly and cute! 'Bunny' is an animated theme suitable for pet lovers and kids. -Just one click in the theme customizer turns Bunny into the Easter bunny! You can also chose the Christmas or Halloween design or hide the images. The theme is responsive and translation ready with one custom menu, two optional widget areas, sticky posts and threaded comments.
-Version: 2.0
+Version: 2.2
+Requires at least: 5.0
+Tested up to: 5.5
+Requires PHP: 5.6
 Tags:threaded-comments, custom-menu, sticky-post, translation-ready, one-column, two-columns, editor-style, featured-images, theme-options, right-sidebar, blog
 Text Domain: bunny
 License: MIT
 License URI: http://opensource.org/licenses/MIT
-Copyright 2014-2019 Carolina Nymark
+Copyright 2014-2020 Carolina Nymark
 */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
